@@ -161,9 +161,13 @@
       </div>
       <!--VEDIO SECTION END-->
 
-      <h2>Data Scrapping Tset</h2>
-      <div id="data_scrapping"></div>
+      <div class = "container">
+         <h2>Data Scrapping</h2>
+         <div id="data_scrapping"></div>
+      </div>
+      
       <!-- PARALLAX LIKE SECTION END-->
+
       <!--JUST SECTION END-->
       <!--CLIENT SECTION END-->
       <div class="container " >
@@ -229,25 +233,25 @@
 
       <!-- Data Scrapping -->
       <script>
-         $(document).ready(function() {
-              $.getJSON('data.json', function (obj) {
-                   var str = '<table border=1>';
+         $(function () {
+               $.get('dataBerita.json', function (obj) {
+                    var str = '<table class ="table">';
 
-                   str = "<tr><td>Kategori</td><td>Judul</td><td>Waktu Publish</td><td>Waktu Scraping</td></tr>";
+                    str = '<thead class = "thead-dark"><tr><th>No</th><th>Kategori</th><th>Judul</th><th>Waktu Publish</th><th>Waktu Scrapping</th></tr></thead><tbody>';
 
-                   $.each(obj, function (n, data) {
-                        str += '<tr><td scope=row>' + (n + 1) + '</td>';
-                        str += '<td>' + data.Kategori + '</td>'
-                        str += '<td>' + data.Judul + '</td>'
-                        str += '<td>' + data.Waktu_Publish + '</td>'
-                        str += '<td>' + data.Waktu_Scraping + '</td></tr>';
-                   });
+                    $.each(obj, function (n, data) {
+                         str += '<tr><td>' + (n + 1) + '</td>';
+                         str += '<td>' + data.Kategori + '</td>';
+                         str += '<td>' + data.Judul + '</td></tr>';
+                         str += '<td>' + data.Waktu_Publish + '</td>';
+                         str += '<td>' + data.Waktu_Scraping + '</td></tr>'; 
+                    });
 
-                   str += '</table>';
+                    str += '<tbody></table>';
 
-                   $('#data_scrapping').html(str);
-              });
-         });
+                    $('#data_scrapping').html(str);
+               });
+          });
     </script>
 
    </body>
