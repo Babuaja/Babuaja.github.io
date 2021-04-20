@@ -241,14 +241,14 @@
       <script>
          $(function () {
                $.get('dataBerita.json', function (obj) {
-                    var str = '<table class ="table">';
+                    var str = '<table class ="table-bordered table-hover">';
 
-                    str = '<thead class = "thead-dark"><tr><th>No</th><th>Kategori</th><th>Judul</th><th>Waktu Publish</th><th>Waktu Scrapping</th></tr></thead><tbody>';
+                    str = '<thead><tr><th>No</th><th>Kategori</th><th>Judul</th><th>Waktu Publish</th><th>Waktu Scrapping</th></tr></thead><tbody>';
 
                     $.each(obj, function (n, data) {
                          str += '<tr><td>' + (n + 1) + '</td>';
                          str += '<td>' + data.Kategori + '</td>';
-                         str += '<td>' + data.Judul + '</td></tr>';
+                         str += '<td>' + data.Judul + '</td>';
                          str += '<td>' + data.Waktu_Publish + '</td>';
                          str += '<td>' + data.Waktu_Scraping + '</td></tr>'; 
                     });
