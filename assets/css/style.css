@@ -22,6 +22,11 @@ body {
 h1,h2,h4 {
     font-family: 'Open Sans', sans-serif;
 }
+
+h4{
+    color: white;
+}
+
 .just-txt-div {
     padding-bottom:30px;
     padding-top:30px;
@@ -202,7 +207,7 @@ min-height: 300px;
     box-shadow: 0 0px 0px rgba(0,0,0,0);
 }
 .social-div a,a:hover{
-    color:#fff;
+    color:rgb(255, 0, 0);
     text-decoration:none;
 }
 .set-about-img {
