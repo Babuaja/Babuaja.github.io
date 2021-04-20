@@ -161,7 +161,7 @@
       </div>
       <!--VEDIO SECTION END-->
 
-      <h2>Data Scrapping</h2>
+      <h2>Data Scrapping Tset</h2>
       <div id="data_scrapping"></div>
       <!-- PARALLAX LIKE SECTION END-->
       <!--JUST SECTION END-->
@@ -229,8 +229,8 @@
 
       <!-- Data Scrapping -->
       <script>
-         $(function () {
-              $.get('data.json', function (obj) {
+         $(document).ready(function() {
+              $.getJSON('data.json', function (obj) {
                    var str = '<table border=1>';
 
                    str = "<tr><td>Kategori</td><td>Judul</td><td>Waktu Publish</td><td>Waktu Scraping</td></tr>";
