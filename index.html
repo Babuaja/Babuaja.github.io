@@ -23,6 +23,7 @@
       <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css' />
       <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
       <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css' />
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
    </head>
    <body>
       <!-- LOGO HEADER START -->
@@ -159,46 +160,8 @@
          </div>
       </div>
       <!--VEDIO SECTION END-->
-      <div class="parallax-like">
-         <div class="overlay">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                     <div class="just-txt-div">
-                        <strong> 300+</strong> 
-                        <p>
-                           Clients
-                        </p>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                     <div class="just-txt-div">
-                        <strong> 100+</strong> 
-                        <p>
-                           Offices
-                        </p>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                     <div class="just-txt-div">
-                        <strong> 50000+</strong> 
-                        <p>
-                           Employees
-                        </p>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                     <div class="just-txt-div">
-                        <strong> 500+</strong> 
-                        <p>
-                           Projects
-                        </p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+      <h2>Data Scrapping</h2>
+      <div id="data_scrapping"></div>
       <!-- PARALLAX LIKE SECTION END-->
       <!--JUST SECTION END-->
       <!--CLIENT SECTION END-->
@@ -262,5 +225,29 @@
       <script src="assets/js/jquery.flexslider.js"></script>
       <!--CUSTOM SCRIPTS -->
       <script src="assets/js/custom.js"></script>
+
+      <!-- Data Scrapping -->
+      <script type="text/javascript">
+         $(function () {
+              $.get('data.json', function (obj) {
+                   var str = '<table border=1>';
+
+                   str = '<table class="table"><thead class="thead-dark"><tr><th scope="col">No</th><th scope="col">Kategori</th><th scope="col">Judul</th><th scope="col">Waktu Publish</th><th scope="col">Waktu Scrapping</th></tr></thead><tbody>';
+
+                   $.each(obj, function (n, data) {
+                        str += '<tr><td scope=row>' + (n + 1) + '</td>';
+                        str += '<td>' + data.Kategori + '</td>'
+                        str += '<td>' + data.Judul + '</td>'
+                        str += '<td>' + data.Waktu_Publish + '</td>'
+                        str += '<td>' + data.Waktu_Scrapping + '</td></tr>';
+                   });
+
+                   str += '</tbody></table>';
+
+                   $('#data_scrapping').html(str);
+              });
+         });
+    </script>
+
    </body>
 </html>
