@@ -129,7 +129,7 @@
                $.get('./scrapping/dataBerita.json', function (obj) {
                     var str = '<div class ="table-responsive"><table class ="table table-bordered table-hover">';
 
-                    str += '<thead><tr><th>No</th><th>Kategori</th><th>Judul</th><th>Waktu Publish</th><th>Waktu Scrapping</th></tr></thead><tbody>';
+                    str += '<thead><tr><th>No</th><th>Kategori</th><th>Judul</th><th>Waktu Publish</th><th>Waktu Scraping</th></tr></thead><tbody>';
 
                     $.each(obj, function (n, data) {
                          str += '<tr><td style="text-align : center">' + (n + 1) + '</td>';
