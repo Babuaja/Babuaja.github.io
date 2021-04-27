@@ -1,0 +1,902 @@
+[
+    {
+        "durasi": "142 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama",
+        "judul": "The Shawshank Redemption",
+        "rating": "9.3",
+        "tahun": "1994",
+        "waktu_scrape": "27/04/2021 16:06:50"
+    },
+    {
+        "durasi": "175 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY98_CR1,0,67,98_AL_.jpg",
+        "genre": "Crime, Drama",
+        "judul": "The Godfather",
+        "rating": "9.2",
+        "tahun": "1972",
+        "waktu_scrape": "27/04/2021 16:06:51"
+    },
+    {
+        "durasi": "152 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Crime, Drama",
+        "judul": "The Dark Knight",
+        "rating": "9.0",
+        "tahun": "2008",
+        "waktu_scrape": "27/04/2021 16:06:51"
+    },
+    {
+        "durasi": "202 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY98_CR1,0,67,98_AL_.jpg",
+        "genre": "Crime, Drama",
+        "judul": "The Godfather: Part II",
+        "rating": "9.0",
+        "tahun": "1974",
+        "waktu_scrape": "27/04/2021 16:06:52"
+    },
+    {
+        "durasi": "96 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Crime, Drama",
+        "judul": "12 Angry Men",
+        "rating": "9.0",
+        "tahun": "1957",
+        "waktu_scrape": "27/04/2021 16:06:52"
+    },
+    {
+        "durasi": "201 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Adventure, Drama",
+        "judul": "The Lord of the Rings: The Return of the King",
+        "rating": "8.9",
+        "tahun": "2003",
+        "waktu_scrape": "27/04/2021 16:06:53"
+    },
+    {
+        "durasi": "154 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY98_CR0,0,67,98_AL_.jpg",
+        "genre": "Crime, Drama",
+        "judul": "Pulp Fiction",
+        "rating": "8.9",
+        "tahun": "1994",
+        "waktu_scrape": "27/04/2021 16:06:53"
+    },
+    {
+        "durasi": "195 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Biography, Drama, History",
+        "judul": "Schindler's List",
+        "rating": "8.9",
+        "tahun": "1993",
+        "waktu_scrape": "27/04/2021 16:06:53"
+    },
+    {
+        "durasi": "148 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Adventure, Sci-Fi",
+        "judul": "Inception",
+        "rating": "8.8",
+        "tahun": "2010",
+        "waktu_scrape": "27/04/2021 16:06:54"
+    },
+    {
+        "durasi": "139 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama",
+        "judul": "Fight Club",
+        "rating": "8.8",
+        "tahun": "1999",
+        "waktu_scrape": "27/04/2021 16:06:54"
+    },
+    {
+        "durasi": "178 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Adventure, Drama",
+        "judul": "The Lord of the Rings: The Fellowship of the Ring",
+        "rating": "8.8",
+        "tahun": "2001",
+        "waktu_scrape": "27/04/2021 16:06:55"
+    },
+    {
+        "durasi": "142 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY98_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama, Romance",
+        "judul": "Forrest Gump",
+        "rating": "8.8",
+        "tahun": "1994",
+        "waktu_scrape": "27/04/2021 16:06:55"
+    },
+    {
+        "durasi": "178 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Western",
+        "judul": "The Good, the Bad and the Ugly",
+        "rating": "8.8",
+        "tahun": "1966",
+        "waktu_scrape": "27/04/2021 16:06:56"
+    },
+    {
+        "durasi": "179 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Adventure, Drama",
+        "judul": "The Lord of the Rings: The Two Towers",
+        "rating": "8.7",
+        "tahun": "2002",
+        "waktu_scrape": "27/04/2021 16:06:56"
+    },
+    {
+        "durasi": "136 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Sci-Fi",
+        "judul": "The Matrix",
+        "rating": "8.7",
+        "tahun": "1999",
+        "waktu_scrape": "27/04/2021 16:06:56"
+    },
+    {
+        "durasi": "146 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Biography, Crime, Drama",
+        "judul": "Goodfellas",
+        "rating": "8.7",
+        "tahun": "1990",
+        "waktu_scrape": "27/04/2021 16:06:57"
+    },
+    {
+        "durasi": "124 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Adventure, Fantasy",
+        "judul": "Star Wars: Episode V - The Empire Strikes Back",
+        "rating": "8.7",
+        "tahun": "1980",
+        "waktu_scrape": "27/04/2021 16:06:57"
+    },
+    {
+        "durasi": "133 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama",
+        "judul": "One Flew Over the Cuckoo's Nest",
+        "rating": "8.7",
+        "tahun": "1975",
+        "waktu_scrape": "27/04/2021 16:06:58"
+    },
+    {
+        "durasi": "132 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Comedy, Drama, Thriller",
+        "judul": "Parasite",
+        "rating": "8.6",
+        "tahun": "2019",
+        "waktu_scrape": "27/04/2021 16:06:58"
+    },
+    {
+        "durasi": "169 min",
+        "gambar": "https://m.media-amazon.com/images/S/sash/4FyxwxECzL-U1J8.png",
+        "genre": "Adventure, Drama, Sci-Fi",
+        "judul": "Interstellar",
+        "rating": "8.6",
+        "tahun": "2014",
+        "waktu_scrape": "27/04/2021 16:06:59"
+    },
+    {
+        "durasi": "130 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BOTMwYjc5ZmItYTFjZC00ZGQ3LTlkNTMtMjZiNTZlMWQzNzI5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Crime, Drama",
+        "judul": "City of God",
+        "rating": "8.6",
+        "tahun": "2002",
+        "waktu_scrape": "27/04/2021 16:06:59"
+    },
+    {
+        "durasi": "125 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Animation, Adventure, Family",
+        "judul": "Spirited Away",
+        "rating": "8.6",
+        "tahun": "2001",
+        "waktu_scrape": "27/04/2021 16:07:00"
+    },
+    {
+        "durasi": "169 min",
+        "gambar": "https://m.media-amazon.com/images/S/sash/4FyxwxECzL-U1J8.png",
+        "genre": "Drama, War",
+        "judul": "Saving Private Ryan",
+        "rating": "8.6",
+        "tahun": "1998",
+        "waktu_scrape": "27/04/2021 16:07:00"
+    },
+    {
+        "durasi": "189 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Crime, Drama, Fantasy",
+        "judul": "The Green Mile",
+        "rating": "8.6",
+        "tahun": "1999",
+        "waktu_scrape": "27/04/2021 16:07:01"
+    },
+    {
+        "durasi": "116 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Comedy, Drama, Romance",
+        "judul": "Life Is Beautiful",
+        "rating": "8.6",
+        "tahun": "1997",
+        "waktu_scrape": "27/04/2021 16:07:01"
+    },
+    {
+        "durasi": "127 min",
+        "gambar": "https://m.media-amazon.com/images/S/sash/4FyxwxECzL-U1J8.png",
+        "genre": "Crime, Drama, Mystery",
+        "judul": "Se7en",
+        "rating": "8.6",
+        "tahun": "1995",
+        "waktu_scrape": "27/04/2021 16:07:02"
+    },
+    {
+        "durasi": "118 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Crime, Drama, Thriller",
+        "judul": "The Silence of the Lambs",
+        "rating": "8.6",
+        "tahun": "1991",
+        "waktu_scrape": "27/04/2021 16:07:02"
+    },
+    {
+        "durasi": "121 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Adventure, Fantasy",
+        "judul": "Star Wars: Episode IV - A New Hope",
+        "rating": "8.6",
+        "tahun": "1977",
+        "waktu_scrape": "27/04/2021 16:07:03"
+    },
+    {
+        "durasi": "133 min",
+        "gambar": "https://m.media-amazon.com/images/S/sash/4FyxwxECzL-U1J8.png",
+        "genre": "Action, Drama, Mystery",
+        "judul": "Hara-Kiri",
+        "rating": "8.6",
+        "tahun": "1962",
+        "waktu_scrape": "27/04/2021 16:07:03"
+    },
+    {
+        "durasi": "207 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BOWE4ZDdhNmMtNzE5ZC00NzExLTlhNGMtY2ZhYjYzODEzODA1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY98_CR1,0,67,98_AL_.jpg",
+        "genre": "Action, Adventure, Drama",
+        "judul": "Seven Samurai",
+        "rating": "8.6",
+        "tahun": "1954",
+        "waktu_scrape": "27/04/2021 16:07:03"
+    },
+    {
+        "durasi": "130 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BZjc4NDZhZWMtNGEzYS00ZWU2LThlM2ItNTA0YzQ0OTExMTE2XkEyXkFqcGdeQXVyNjUwMzI2NzU@._V1_UY98_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama, Family, Fantasy",
+        "judul": "It's a Wonderful Life",
+        "rating": "8.6",
+        "tahun": "1946",
+        "waktu_scrape": "27/04/2021 16:07:04"
+    },
+    {
+        "durasi": "160 min",
+        "gambar": "https://m.media-amazon.com/images/S/sash/4FyxwxECzL-U1J8.png",
+        "genre": "Biography, Drama, History",
+        "judul": "Hamilton",
+        "rating": "8.5",
+        "tahun": "2020",
+        "waktu_scrape": "27/04/2021 16:07:04"
+    },
+    {
+        "durasi": "106 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama, Music",
+        "judul": "Whiplash",
+        "rating": "8.5",
+        "tahun": "2014",
+        "waktu_scrape": "27/04/2021 16:07:04"
+    },
+    {
+        "durasi": "112 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Biography, Comedy, Drama",
+        "judul": "The Intouchables",
+        "rating": "8.5",
+        "tahun": "2011",
+        "waktu_scrape": "27/04/2021 16:07:06"
+    },
+    {
+        "durasi": "130 min",
+        "gambar": "https://m.media-amazon.com/images/S/sash/4FyxwxECzL-U1J8.png",
+        "genre": "Drama, Mystery, Sci-Fi",
+        "judul": "The Prestige",
+        "rating": "8.5",
+        "tahun": "2006",
+        "waktu_scrape": "27/04/2021 16:07:06"
+    },
+    {
+        "durasi": "151 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Crime, Drama, Thriller",
+        "judul": "The Departed",
+        "rating": "8.5",
+        "tahun": "2006",
+        "waktu_scrape": "27/04/2021 16:07:07"
+    },
+    {
+        "durasi": "150 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY98_CR2,0,67,98_AL_.jpg",
+        "genre": "Biography, Drama, Music",
+        "judul": "The Pianist",
+        "rating": "8.5",
+        "tahun": "2002",
+        "waktu_scrape": "27/04/2021 16:07:07"
+    },
+    {
+        "durasi": "155 min",
+        "gambar": "https://m.media-amazon.com/images/S/sash/4FyxwxECzL-U1J8.png",
+        "genre": "Action, Adventure, Drama",
+        "judul": "Gladiator",
+        "rating": "8.5",
+        "tahun": "2000",
+        "waktu_scrape": "27/04/2021 16:07:07"
+    },
+    {
+        "durasi": "119 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BZTJhN2FkYWEtMGI0My00YWM4LWI2MjAtM2UwNjY4MTI2ZTQyXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama",
+        "judul": "American History X",
+        "rating": "8.5",
+        "tahun": "1998",
+        "waktu_scrape": "27/04/2021 16:07:08"
+    },
+    {
+        "durasi": "106 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Crime, Mystery, Thriller",
+        "judul": "The Usual Suspects",
+        "rating": "8.5",
+        "tahun": "1995",
+        "waktu_scrape": "27/04/2021 16:07:08"
+    },
+    {
+        "durasi": "110 min",
+        "gambar": "https://m.media-amazon.com/images/S/sash/4FyxwxECzL-U1J8.png",
+        "genre": "Action, Crime, Drama",
+        "judul": "L\u00e9on: The Professional",
+        "rating": "8.5",
+        "tahun": "1994",
+        "waktu_scrape": "27/04/2021 16:07:09"
+    },
+    {
+        "durasi": "88 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Animation, Adventure, Drama",
+        "judul": "The Lion King",
+        "rating": "8.5",
+        "tahun": "1994",
+        "waktu_scrape": "27/04/2021 16:07:09"
+    },
+    {
+        "durasi": "137 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Sci-Fi",
+        "judul": "Terminator 2: Judgment Day",
+        "rating": "8.5",
+        "tahun": "1991",
+        "waktu_scrape": "27/04/2021 16:07:09"
+    },
+    {
+        "durasi": "155 min",
+        "gambar": "https://m.media-amazon.com/images/S/sash/4FyxwxECzL-U1J8.png",
+        "genre": "Drama, Romance",
+        "judul": "Cinema Paradiso",
+        "rating": "8.5",
+        "tahun": "1988",
+        "waktu_scrape": "27/04/2021 16:07:10"
+    },
+    {
+        "durasi": "89 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BZmY2NjUzNDQtNTgxNC00M2Q4LTljOWQtMjNjNDBjNWUxNmJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Animation, Drama, War",
+        "judul": "Grave of the Fireflies",
+        "rating": "8.5",
+        "tahun": "1988",
+        "waktu_scrape": "27/04/2021 16:07:10"
+    },
+    {
+        "durasi": "116 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Adventure, Comedy, Sci-Fi",
+        "judul": "Back to the Future",
+        "rating": "8.5",
+        "tahun": "1985",
+        "waktu_scrape": "27/04/2021 16:07:11"
+    },
+    {
+        "durasi": "165 min",
+        "gambar": "https://m.media-amazon.com/images/S/sash/4FyxwxECzL-U1J8.png",
+        "genre": "Western",
+        "judul": "Once Upon a Time in the West",
+        "rating": "8.5",
+        "tahun": "1968",
+        "waktu_scrape": "27/04/2021 16:07:11"
+    },
+    {
+        "durasi": "109 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BNTQwNDM1YzItNDAxZC00NWY2LTk0M2UtNDIwNWI5OGUyNWUxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Horror, Mystery, Thriller",
+        "judul": "Psycho",
+        "rating": "8.5",
+        "tahun": "1960",
+        "waktu_scrape": "27/04/2021 16:07:11"
+    },
+    {
+        "durasi": "102 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama, Romance, War",
+        "judul": "Casablanca",
+        "rating": "8.5",
+        "tahun": "1942",
+        "waktu_scrape": "27/04/2021 16:07:12"
+    },
+    {
+        "durasi": "87 min",
+        "gambar": "https://m.media-amazon.com/images/S/sash/4FyxwxECzL-U1J8.png",
+        "genre": "Comedy, Drama, Family",
+        "judul": "Modern Times",
+        "rating": "8.5",
+        "tahun": "1936",
+        "waktu_scrape": "27/04/2021 16:07:12"
+    },
+    {
+        "durasi": "87 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BY2I4MmM1N2EtM2YzOS00OWUzLTkzYzctNDc5NDg2N2IyODJmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Comedy, Drama, Romance",
+        "judul": "City Lights",
+        "rating": "8.5",
+        "tahun": "1931",
+        "waktu_scrape": "27/04/2021 16:07:19"
+    },
+    {
+        "durasi": "126 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMmExNzU2ZWMtYzUwYi00YmM2LTkxZTQtNmVhNjY0NTMyMWI2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama",
+        "judul": "Capernaum",
+        "rating": "8.4",
+        "tahun": "2018",
+        "waktu_scrape": "27/04/2021 16:07:19"
+    },
+    {
+        "durasi": "122 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Crime, Drama, Thriller",
+        "judul": "Joker",
+        "rating": "8.4",
+        "tahun": "2019",
+        "waktu_scrape": "27/04/2021 16:07:19"
+    },
+    {
+        "durasi": "106 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Animation, Drama, Fantasy",
+        "judul": "Your Name.",
+        "rating": "8.4",
+        "tahun": "2016",
+        "waktu_scrape": "27/04/2021 16:07:20"
+    },
+    {
+        "durasi": "161 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_UY98_CR1,0,67,98_AL_.jpg",
+        "genre": "Action, Biography, Drama",
+        "judul": "Dangal",
+        "rating": "8.4",
+        "tahun": "2016",
+        "waktu_scrape": "27/04/2021 16:07:20"
+    },
+    {
+        "durasi": "117 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Animation, Action, Adventure",
+        "judul": "Spider-Man: Into the Spider-Verse",
+        "rating": "8.4",
+        "tahun": "2018",
+        "waktu_scrape": "27/04/2021 16:07:20"
+    },
+    {
+        "durasi": "181 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Adventure, Drama",
+        "judul": "Avengers: Endgame",
+        "rating": "8.4",
+        "tahun": "2019",
+        "waktu_scrape": "27/04/2021 16:07:21"
+    },
+    {
+        "durasi": "149 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Adventure, Sci-Fi",
+        "judul": "Avengers: Infinity War",
+        "rating": "8.4",
+        "tahun": "2018",
+        "waktu_scrape": "27/04/2021 16:07:21"
+    },
+    {
+        "durasi": "105 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY98_CR1,0,67,98_AL_.jpg",
+        "genre": "Animation, Adventure, Family",
+        "judul": "Coco",
+        "rating": "8.4",
+        "tahun": "I) (2017",
+        "waktu_scrape": "27/04/2021 16:07:22"
+    },
+    {
+        "durasi": "165 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama, Western",
+        "judul": "Django Unchained",
+        "rating": "8.4",
+        "tahun": "2012",
+        "waktu_scrape": "27/04/2021 16:07:22"
+    },
+    {
+        "durasi": "164 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Adventure",
+        "judul": "The Dark Knight Rises",
+        "rating": "8.4",
+        "tahun": "2012",
+        "waktu_scrape": "27/04/2021 16:07:22"
+    },
+    {
+        "durasi": "170 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY98_CR0,0,67,98_AL_.jpg",
+        "genre": "Comedy, Drama",
+        "judul": "3 Idiots",
+        "rating": "8.4",
+        "tahun": "2009",
+        "waktu_scrape": "27/04/2021 16:07:23"
+    },
+    {
+        "durasi": "165 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMDhjZWViN2MtNzgxOS00NmI4LThiZDQtZDI3MzM4MDE4NTc0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY98_CR1,0,67,98_AL_.jpg",
+        "genre": "Drama, Family",
+        "judul": "Like Stars on Earth",
+        "rating": "8.4",
+        "tahun": "2007",
+        "waktu_scrape": "27/04/2021 16:07:23"
+    },
+    {
+        "durasi": "98 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Animation, Adventure, Family",
+        "judul": "WALL\u00b7E",
+        "rating": "8.4",
+        "tahun": "2008",
+        "waktu_scrape": "27/04/2021 16:07:24"
+    },
+    {
+        "durasi": "137 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BOThkM2EzYmMtNDE3NS00NjlhLTg4YzktYTdhNzgyOWY3ZDYzXkEyXkFqcGdeQXVyNzQzNzQxNzI@._V1_UY98_CR1,0,67,98_AL_.jpg",
+        "genre": "Drama, Mystery, Thriller",
+        "judul": "The Lives of Others",
+        "rating": "8.4",
+        "tahun": "2006",
+        "waktu_scrape": "27/04/2021 16:07:24"
+    },
+    {
+        "durasi": "120 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Drama, Mystery",
+        "judul": "Oldboy",
+        "rating": "8.4",
+        "tahun": "2003",
+        "waktu_scrape": "27/04/2021 16:07:24"
+    },
+    {
+        "durasi": "113 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Mystery, Thriller",
+        "judul": "Memento",
+        "rating": "8.4",
+        "tahun": "2000",
+        "waktu_scrape": "27/04/2021 16:07:25"
+    },
+    {
+        "durasi": "134 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BNGIzY2IzODQtNThmMi00ZDE4LWI5YzAtNzNlZTM1ZjYyYjUyXkEyXkFqcGdeQXVyODEzNjM5OTQ@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Animation, Action, Adventure",
+        "judul": "Princess Mononoke",
+        "rating": "8.4",
+        "tahun": "1997",
+        "waktu_scrape": "27/04/2021 16:07:25"
+    },
+    {
+        "durasi": "229 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMGFkNWI4MTMtNGQ0OC00MWVmLTk3MTktOGYxN2Y2YWVkZWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Crime, Drama",
+        "judul": "Once Upon a Time in America",
+        "rating": "8.4",
+        "tahun": "1984",
+        "waktu_scrape": "27/04/2021 16:07:26"
+    },
+    {
+        "durasi": "115 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMjA0ODEzMTc1Nl5BMl5BanBnXkFtZTcwODM2MjAxNA@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Adventure",
+        "judul": "Indiana Jones and the Raiders of the Lost Ark",
+        "rating": "8.4",
+        "tahun": "1981",
+        "waktu_scrape": "27/04/2021 16:07:26"
+    },
+    {
+        "durasi": "146 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama, Horror",
+        "judul": "The Shining",
+        "rating": "8.4",
+        "tahun": "1980",
+        "waktu_scrape": "27/04/2021 16:07:26"
+    },
+    {
+        "durasi": "147 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMDdhODg0MjYtYzBiOS00ZmI5LWEwZGYtZDEyNDU4MmQyNzFkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama, Mystery, War",
+        "judul": "Apocalypse Now",
+        "rating": "8.4",
+        "tahun": "1979",
+        "waktu_scrape": "27/04/2021 16:07:27"
+    },
+    {
+        "durasi": "117 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMmQ2MmU3NzktZjAxOC00ZDZhLTk4YzEtMDMyMzcxY2IwMDAyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Horror, Sci-Fi",
+        "judul": "Alien",
+        "rating": "8.4",
+        "tahun": "1979",
+        "waktu_scrape": "27/04/2021 16:07:27"
+    },
+    {
+        "durasi": "143 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BOTI4NTNhZDMtMWNkZi00MTRmLWJmZDQtMmJkMGVmZTEzODlhXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Crime, Drama, Mystery",
+        "judul": "High and Low",
+        "rating": "8.4",
+        "tahun": "1963",
+        "waktu_scrape": "27/04/2021 16:07:28"
+    },
+    {
+        "durasi": "95 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BZWI3ZTMxNjctMjdlNS00NmUwLWFiM2YtZDUyY2I3N2MxYTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Comedy",
+        "judul": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+        "rating": "8.4",
+        "tahun": "1964",
+        "waktu_scrape": "27/04/2021 16:07:28"
+    },
+    {
+        "durasi": "116 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BNDQwODU5OWYtNDcyNi00MDQ1LThiOGMtZDkwNWJiM2Y3MDg0XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Crime, Drama, Mystery",
+        "judul": "Witness for the Prosecution",
+        "rating": "8.4",
+        "tahun": "1957",
+        "waktu_scrape": "27/04/2021 16:07:28"
+    },
+    {
+        "durasi": "88 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BNjViMmRkOTEtM2ViOS00ODg0LWJhYWEtNTBlOGQxNDczOGY3XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_UY98_CR2,0,67,98_AL_.jpg",
+        "genre": "Drama, War",
+        "judul": "Paths of Glory",
+        "rating": "8.4",
+        "tahun": "1957",
+        "waktu_scrape": "27/04/2021 16:07:29"
+    },
+    {
+        "durasi": "112 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BNGUxYWM3M2MtMGM3Mi00ZmRiLWE0NGQtZjE5ODI2OTJhNTU0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Mystery, Thriller",
+        "judul": "Rear Window",
+        "rating": "8.4",
+        "tahun": "1954",
+        "waktu_scrape": "27/04/2021 16:07:29"
+    },
+    {
+        "durasi": "110 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMTU0NTkyNzYwMF5BMl5BanBnXkFtZTgwMDU0NDk5MTI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama, Film-Noir",
+        "judul": "Sunset Blvd.",
+        "rating": "8.4",
+        "tahun": "1950",
+        "waktu_scrape": "27/04/2021 16:07:30"
+    },
+    {
+        "durasi": "125 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMmExYWJjNTktNGUyZS00ODhmLTkxYzAtNWIzOGEyMGNiMmUwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Comedy, Drama, War",
+        "judul": "The Great Dictator",
+        "rating": "8.4",
+        "tahun": "1940",
+        "waktu_scrape": "27/04/2021 16:07:31"
+    },
+    {
+        "durasi": "115 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMTg2NDg3ODg4NF5BMl5BanBnXkFtZTcwNzk3NTc3Nw@@._V1_UY98_CR1,0,67,98_AL_.jpg",
+        "genre": "Drama",
+        "judul": "The Hunt",
+        "rating": "8.3",
+        "tahun": "2012",
+        "waktu_scrape": "27/04/2021 16:07:31"
+    },
+    {
+        "durasi": "153 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Adventure, Drama, War",
+        "judul": "Inglourious Basterds",
+        "rating": "8.3",
+        "tahun": "2009",
+        "waktu_scrape": "27/04/2021 16:07:31"
+    },
+    {
+        "durasi": "108 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama, Romance, Sci-Fi",
+        "judul": "Eternal Sunshine of the Spotless Mind",
+        "rating": "8.3",
+        "tahun": "2004",
+        "waktu_scrape": "27/04/2021 16:07:32"
+    },
+    {
+        "durasi": "102 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BOTdiNzJlOWUtNWMwNS00NmFlLWI0YTEtZmI3YjIzZWUyY2Y3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama",
+        "judul": "Requiem for a Dream",
+        "rating": "8.3",
+        "tahun": "2000",
+        "waktu_scrape": "27/04/2021 16:07:32"
+    },
+    {
+        "durasi": "122 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BNTBmZWJkNjctNDhiNC00MGE2LWEwOTctZTk5OGVhMWMyNmVhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama",
+        "judul": "American Beauty",
+        "rating": "8.3",
+        "tahun": "1999",
+        "waktu_scrape": "27/04/2021 16:07:33"
+    },
+    {
+        "durasi": "126 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BOTI0MzcxMTYtZDVkMy00NjY1LTgyMTYtZmUxN2M3NmQ2NWJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama, Romance",
+        "judul": "Good Will Hunting",
+        "rating": "8.3",
+        "tahun": "1997",
+        "waktu_scrape": "27/04/2021 16:07:33"
+    },
+    {
+        "durasi": "81 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Animation, Adventure, Comedy",
+        "judul": "Toy Story",
+        "rating": "8.3",
+        "tahun": "1995",
+        "waktu_scrape": "27/04/2021 16:07:34"
+    },
+    {
+        "durasi": "178 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMzkzMmU0YTYtOWM3My00YzBmLWI0YzctOGYyNTkwMWE5MTJkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Biography, Drama, History",
+        "judul": "Braveheart",
+        "rating": "8.3",
+        "tahun": "1995",
+        "waktu_scrape": "27/04/2021 16:07:34"
+    },
+    {
+        "durasi": "99 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Crime, Drama, Thriller",
+        "judul": "Reservoir Dogs",
+        "rating": "8.3",
+        "tahun": "1992",
+        "waktu_scrape": "27/04/2021 16:07:35"
+    },
+    {
+        "durasi": "142 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BODM4Njg0NTAtYjI5Ny00ZjAxLTkwNmItZTMxMWU5M2U3M2RjXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama, Thriller, War",
+        "judul": "Come and See",
+        "rating": "8.3",
+        "tahun": "1985",
+        "waktu_scrape": "27/04/2021 16:07:35"
+    },
+    {
+        "durasi": "137 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BZGU2OGY5ZTYtMWNhYy00NjZiLWI0NjUtZmNhY2JhNDRmODU3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Adventure, Sci-Fi",
+        "judul": "Aliens",
+        "rating": "8.3",
+        "tahun": "1986",
+        "waktu_scrape": "27/04/2021 16:07:35"
+    },
+    {
+        "durasi": "160 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BNWJlNzUzNGMtYTAwMS00ZjI2LWFmNWQtODcxNWUxODA5YmU1XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Biography, Drama, History",
+        "judul": "Amadeus",
+        "rating": "8.3",
+        "tahun": "1984",
+        "waktu_scrape": "27/04/2021 16:07:36"
+    },
+    {
+        "durasi": "131 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Action, Adventure, Fantasy",
+        "judul": "Star Wars: Episode VI - Return of the Jedi",
+        "rating": "8.3",
+        "tahun": "1983",
+        "waktu_scrape": "27/04/2021 16:07:36"
+    },
+    {
+        "durasi": "149 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BOGZhZDIzNWMtNjkxMS00MDQ1LThkMTYtZWQzYWU3MWMxMGU5XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Adventure, Drama, Thriller",
+        "judul": "Das Boot",
+        "rating": "8.3",
+        "tahun": "1981",
+        "waktu_scrape": "27/04/2021 16:07:37"
+    },
+    {
+        "durasi": "149 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Adventure, Sci-Fi",
+        "judul": "2001: A Space Odyssey",
+        "rating": "8.3",
+        "tahun": "1968",
+        "waktu_scrape": "27/04/2021 16:07:37"
+    },
+    {
+        "durasi": "128 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BYTE4ODEwZDUtNDFjOC00NjAxLWEzYTQtYTI1NGVmZmFlNjdiL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Mystery, Romance, Thriller",
+        "judul": "Vertigo",
+        "rating": "8.3",
+        "tahun": "1958",
+        "waktu_scrape": "27/04/2021 16:07:38"
+    },
+    {
+        "durasi": "103 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BZDRjNGViMjQtOThlMi00MTA3LThkYzQtNzJkYjBkMGE0YzE1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UY98_CR0,0,67,98_AL_.jpg",
+        "genre": "Comedy, Musical, Romance",
+        "judul": "Singin' in the Rain",
+        "rating": "8.3",
+        "tahun": "1952",
+        "waktu_scrape": "27/04/2021 16:07:38"
+    },
+    {
+        "durasi": "119 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BYjBiOTYxZWItMzdiZi00NjlkLWIzZTYtYmFhZjhiMTljOTdkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Drama, Mystery",
+        "judul": "Citizen Kane",
+        "rating": "8.3",
+        "tahun": "1941",
+        "waktu_scrape": "27/04/2021 16:07:39"
+    },
+    {
+        "durasi": "99 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BODA4ODk3OTEzMF5BMl5BanBnXkFtZTgwMTQ2ODMwMzE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Crime, Mystery, Thriller",
+        "judul": "M",
+        "rating": "8.3",
+        "tahun": "1931",
+        "waktu_scrape": "27/04/2021 16:07:39"
+    },
+    {
+        "durasi": "68 min",
+        "gambar": "https://m.media-amazon.com/images/M/MV5BZjhhMThhNDItNTY2MC00MmU1LTliNDEtNDdhZjdlNTY5ZDQ1XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        "genre": "Comedy, Drama, Family",
+        "judul": "The Kid",
+        "rating": "8.3",
+        "tahun": "1921",
+        "waktu_scrape": "27/04/2021 16:07:39"
+    }
+]

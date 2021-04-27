@@ -128,10 +128,10 @@
       <!-- Data Scrapping -->
       <script>
          $(function () {
-               $.get('dataimdb.json', function (obj) {
+               $.get('./scrapping/hasilScraping.json', function (obj) {
                     var str = '<div class ="table-responsive"><table class ="table table-bordered table-hover">';
 
-                    str += '<thead><tr><th>No</th><th>Cover</th><th>Judul</th><th>Genre</th><th>Tahun</th><th>Rating</th><th>Waktu Scrapping</th></tr></thead><tbody>';
+                    str += '<thead><tr><th>No</th><th>Cover</th><th>Judul</th><th>Genre</th><th>Tahun</th><th>Durasi</th><th>Rating</th><th>Waktu Scrapping</th></tr></thead><tbody>';
 
                     $.each(obj, function (n, data) {
                          str += '<tr><td style="text-align : center">' + (n + 1) + '</td>';
@@ -139,6 +139,7 @@
                          str += '<td>' + data.judul + '</td>';
                          str += '<td>' + data.genre + '</td>';
                          str += '<td>' + data.tahun + '</td>';
+                         str += '<td>' + data.durasi + '</td>';
                          str += '<td>' + data.rating + '</td>';
                          str += '<td>' + data.waktu_scrape + '</td></tr>'; 
                     });
