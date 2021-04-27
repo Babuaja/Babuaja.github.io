@@ -15,7 +15,7 @@ page = requests.get("https://republika.co.id/")
 
 obj = BeautifulSoup(page.text, 'html.parser')
 
-file = open("E:\Arsal\Materi Kuliah\Proyek 1\Web Scraping Tugas\data.json", "a") 
+file = open("E:\Arsal\Materi Kuliah\Proyek 1\Web Scraping Tugas\Babuaja.github.io\dataBerita.json", "a") 
 
 data = []
 
