@@ -2,13 +2,10 @@ var ctx_2 = document.getElementById('g2');
 
 var ndata = judul.length;
 
-console.log(ndata);
-
 for(var i=0; i<ndata; i++){
     if(i+1>10){
         var j = judul.pop();
         var t = tahun.pop();
-        console.log(j+t);
     }
 }
 
