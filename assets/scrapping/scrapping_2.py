@@ -52,7 +52,7 @@ while i <= 1000:
         link.click()
     except:
         print("gagal ngeklik next")
-        break;
+        break
 
 
 f=open("data/imdbtop1000.json", 'w')

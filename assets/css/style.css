@@ -1197,3 +1197,13 @@ section {
   height: 330px;
   width: 248px;
 }
+
+.Chart{
+  height: 400px;
+}
+
+@media screen and (max-width: 576px){
+  .Chart{
+      display: inline;
+  }
+}

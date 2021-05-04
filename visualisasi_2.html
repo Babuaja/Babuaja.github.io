@@ -42,12 +42,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  <style>
-      .Chart{
-          height: 400px;
-          width: 100%;
-      }
-  </style>
+
 </head>
 
 <body>
@@ -123,86 +118,17 @@
     <section class="inner-page pt-4">
       <div class="container">
           <div class="row Chart">
-              <div class="col">
-                <canvas id="myChart" width="100" height="100"></canvas>
-                <script>
-                    var ctx = document.getElementById('myChart');
-                    var myChart = new Chart(ctx, {
-                        type: 'bar',
-                        data: {
-                            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-                            datasets: [{
-                                label: '# of Votes',
-                                data: [12, 17, 3, 5, 2, 3],
-                                backgroundColor: [
-                                    'rgba(255, 99, 132, 0.2)',
-                                    'rgba(54, 162, 235, 0.2)',
-                                    'rgba(255, 206, 86, 0.2)',
-                                    'rgba(75, 192, 192, 0.2)',
-                                    'rgba(153, 102, 255, 0.2)',
-                                    'rgba(255, 159, 64, 0.2)'
-                                ],
-                                borderColor: [
-                                    'rgba(255, 99, 132, 1)',
-                                    'rgba(54, 162, 235, 1)',
-                                    'rgba(255, 206, 86, 1)',
-                                    'rgba(75, 192, 192, 1)',
-                                    'rgba(153, 102, 255, 1)',
-                                    'rgba(255, 159, 64, 1)'
-                                ],
-                                borderWidth: 1
-                            }]
-                        },
-                        options: {
-                            scales: {
-                                y: {
-                                    beginAtZero: true
-                                }
-                            }
-                        }
-                    });
-                </script>        
-              </div>
-              <div class="col">
-                <canvas id="myChart_2" width="100" height="100"></canvas>
-                <script>
-                    var ctx = document.getElementById('myChart_2');
-                    var myChart = new Chart(ctx, {
-                        type: 'bar',
-                        data: {
-                            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-                            datasets: [{
-                                label: '# of Votes',
-                                data: [12, 17, 3, 5, 2, 3],
-                                backgroundColor: [
-                                    'rgba(255, 99, 132, 0.2)',
-                                    'rgba(54, 162, 235, 0.2)',
-                                    'rgba(255, 206, 86, 0.2)',
-                                    'rgba(75, 192, 192, 0.2)',
-                                    'rgba(153, 102, 255, 0.2)',
-                                    'rgba(255, 159, 64, 0.2)'
-                                ],
-                                borderColor: [
-                                    'rgba(255, 99, 132, 1)',
-                                    'rgba(54, 162, 235, 1)',
-                                    'rgba(255, 206, 86, 1)',
-                                    'rgba(75, 192, 192, 1)',
-                                    'rgba(153, 102, 255, 1)',
-                                    'rgba(255, 159, 64, 1)'
-                                ],
-                                borderWidth: 1
-                            }]
-                        },
-                        options: {
-                            scales: {
-                                y: {
-                                    beginAtZero: true
-                                }
-                            }
-                        }
-                    });
-                </script>        
-              </div>
+                <div class="col-sm-6">
+                    <canvas id="g1"></canvas>
+                    <script src="assets/js/SortByYear_Asce.js"></script>
+                    <script src="assets/js/grafik_1.js"></script>    
+                </div>   
+
+                <div class="col-sm-6">
+                    <canvas id="g2"></canvas>
+                    <script src="assets/js/SortByYear_Desc.js"></script>
+                    <script src="assets/js/grafik_2.js"></script>    
+                </div>
           </div>
       </div>
     </section><!-- ======= End Grafik Visualisasi Data ======= -->
@@ -251,29 +177,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
-  <!-- Script Scraping Only -->
-  <script>
-    $(function () {
-          $.get('./assets/scrapping/dataBerita.json', function (obj) {
-               var str = '<div class ="table-responsive"><table class ="table table-bordered table-hover">';
-
-               str += '<thead class="thead-dark"><tr><th>No</th><th>Kategori</th><th>Judul</th><th>Waktu Publish</th><th>Waktu Scraping</th></tr></thead><tbody>';
-
-               $.each(obj, function (n, data) {
-                    str += '<tr><td style="text-align : center">' + (n + 1) + '</td>';
-                    str += '<td>' + data.Kategori + '</td>';
-                    str += '<td>' + data.Judul + '</td>';
-                    str += '<td>' + data.Waktu_Publish + '</td>';
-                    str += '<td>' + data.Waktu_Scraping + '</td></tr>'; 
-               });
-
-               str += '<tbody></table></div>';
-
-               $('#data_scrapping').html(str);
-          });
-     });
-</script>
 
 </body>
 

@@ -36,6 +36,33 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script type="text/javascript">
+window.onload = function () {
+var dataPoints = [];
+var chart = new CanvasJS.Chart("chartContainer",{
+	title:{
+		text:"Rendering Chart with dataPoints from External JSON"
+	},
+	data: [{
+		type: "line",
+		dataPoints : dataPoints,
+	}]
+});
+var ndata = 0;
+$.get("./assets/scrapping/imdbtop1000.json", function(data) {  
+	$.each(data, function(key, value){
+        if(ndata<5){
+            dataPoints.push({x: value.judul, y: parseInt(value.tahun)});
+            console.log(dataPoints);
+        }
+        ndata++;
+	});	
+	chart.render();
+});
+}
+</script>
 </head>
 
 <body>
@@ -110,7 +137,7 @@
     <!-- ======= Tabel Data Scraping ======= -->
     <section class="inner-page pt-4">
       <div class="container">
-        <div id="data_scrapping"></div>
+        <div id="chartContainer" style="height: 300px; width: 100%;"></div>
       </div>
     </section><!-- ======= End Tabel Data Scraping ======= -->
 
