@@ -1204,6 +1204,7 @@ section {
 
 @media screen and (max-width: 576px){
   .Chart{
+      height :450px;
       display: inline;
   }
 }

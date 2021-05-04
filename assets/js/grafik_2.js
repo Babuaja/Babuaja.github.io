@@ -10,7 +10,7 @@ for(var i=0; i<ndata; i++){
 }
 
 var myChart = new Chart(ctx_2, {
-    type: 'line',
+    type: 'bar',
     data: {
         labels: judul,
         datasets: [{
@@ -22,7 +22,11 @@ var myChart = new Chart(ctx_2, {
                 'rgba(255, 206, 86, 0.2)',
                 'rgba(75, 192, 192, 0.2)',
                 'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
+                'rgba(155, 150, 14, 0.2)',
+                'rgba(255, 198, 74, 0.2)',
+                'rgba(23, 109, 64, 0.2)',
+                'rgba(225, 109, 64, 0.2)',
+                'rgba(205, 10, 64, 0.2)'
             ],
             borderColor: [
                 'rgba(255, 99, 132, 1)',
@@ -30,14 +34,18 @@ var myChart = new Chart(ctx_2, {
                 'rgba(255, 206, 86, 1)',
                 'rgba(75, 192, 192, 1)',
                 'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
+                'rgba(155, 150, 14, 1)',
+                'rgba(255, 198, 74, 1)',
+                'rgba(23, 109, 64, 1)',
+                'rgba(225, 109, 64, 1)',
+                'rgba(205, 10, 64, 1)'
             ],
             borderWidth: 1
         }]
     },
     options: {
         responsive: true,
-        indexAxis : 'y',
+        // indexAxis : 'y',
         plugins: {
             title: {
                 display: true,
@@ -47,7 +55,7 @@ var myChart = new Chart(ctx_2, {
         },
         maintainAspectRatio: false,
         scales: {
-            x: {
+            y: {
                 beginAtZero: false
             }
         }
