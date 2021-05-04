@@ -30,12 +30,24 @@
   <!-- Link For Scraping Jquery -->
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
+  <!-- Library Visualisasi Data Chart.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js" integrity="sha512-VMsZqo0ar06BMtg0tPsdgRADvl0kDHpTbugCBBrL55KmucH6hP9zWdLIWY//OTfMnzz6xWQRxQqsUFefwHuHyg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.esm.js" integrity="sha512-iPOvgg5RoL9rL/XjfFdBqjAlStti+ik8BmLYu12vwlD5jgCCdw7R8kI9mtHU7fMUSaRwG+w56i0xrAm/tnVj7w==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.js" integrity="sha512-opXrgVcTHsEVdBUZqTPlW9S8+99hNbaHmXtAdXXc61OUU6gOII5ku/PzZFqexHXc3hnK8IrJKHo+T7O4GRIJcw==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/helpers.esm.js" integrity="sha512-VzhPhsLWGZ8kBPi9bHEcIVPOryxNlYq0iPPKUO8gb1sXi8wYGBi4LWx+c8nN/CofeKjSDXWDDtNsABXV6Q3Jfg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/helpers.esm.min.js" integrity="sha512-4OeC7P+qUXB7Kpyeu1r5Y209JLXfCkwGKDpk8vnXzeNGMnpTr6hzOz2lMm7h0oxRBVu2ZCPRkCBPMmIlWsbaHg==" crossorigin="anonymous"></script>
   <!-- =======================================================
   * Template Name: Regna - v2.2.1
   * Template URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+      .Chart{
+          height: 400px;
+          width: 100%;
+      }
+  </style>
 </head>
 
 <body>
@@ -77,7 +89,7 @@
               <li class="menu-has-children"><a href="visualisasi_data.html">Visualisasi Data</a>
                 <ul>
                   <li><a href="visualisasi_1.html">Visualisasi Data 1</a></li>
-                  <li><a href="visualisasi_2.html">Visualisasi Data 2</a></li>
+                  <li><a href="#">Visualisasi Data 2</a></li>
                 </ul>
               </li>
               <li><a href="#">On Going</a></li>
@@ -99,20 +111,101 @@
           <h2>Data Scrapping : <a href="https://republika.co.id/">republika.co.id</a></h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li><a href="web_scraping.html">Web Scraping</a></li>
-            <li>Data Scraping 1</li>
+            <li><a href="visualisasi_data.html">Visualisasi Data</a></li>
+            <li>Visualisasi Data 2</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumps Section -->
 
-    <!-- ======= Tabel Data Scraping ======= -->
+    <!-- ======= Grafik Visualisasi Data ======= -->
     <section class="inner-page pt-4">
       <div class="container">
-        <div id="data_scrapping"></div>
+          <div class="row Chart">
+              <div class="col">
+                <canvas id="myChart" width="100" height="100"></canvas>
+                <script>
+                    var ctx = document.getElementById('myChart');
+                    var myChart = new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                            datasets: [{
+                                label: '# of Votes',
+                                data: [12, 17, 3, 5, 2, 3],
+                                backgroundColor: [
+                                    'rgba(255, 99, 132, 0.2)',
+                                    'rgba(54, 162, 235, 0.2)',
+                                    'rgba(255, 206, 86, 0.2)',
+                                    'rgba(75, 192, 192, 0.2)',
+                                    'rgba(153, 102, 255, 0.2)',
+                                    'rgba(255, 159, 64, 0.2)'
+                                ],
+                                borderColor: [
+                                    'rgba(255, 99, 132, 1)',
+                                    'rgba(54, 162, 235, 1)',
+                                    'rgba(255, 206, 86, 1)',
+                                    'rgba(75, 192, 192, 1)',
+                                    'rgba(153, 102, 255, 1)',
+                                    'rgba(255, 159, 64, 1)'
+                                ],
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        }
+                    });
+                </script>        
+              </div>
+              <div class="col">
+                <canvas id="myChart_2" width="100" height="100"></canvas>
+                <script>
+                    var ctx = document.getElementById('myChart_2');
+                    var myChart = new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                            datasets: [{
+                                label: '# of Votes',
+                                data: [12, 17, 3, 5, 2, 3],
+                                backgroundColor: [
+                                    'rgba(255, 99, 132, 0.2)',
+                                    'rgba(54, 162, 235, 0.2)',
+                                    'rgba(255, 206, 86, 0.2)',
+                                    'rgba(75, 192, 192, 0.2)',
+                                    'rgba(153, 102, 255, 0.2)',
+                                    'rgba(255, 159, 64, 0.2)'
+                                ],
+                                borderColor: [
+                                    'rgba(255, 99, 132, 1)',
+                                    'rgba(54, 162, 235, 1)',
+                                    'rgba(255, 206, 86, 1)',
+                                    'rgba(75, 192, 192, 1)',
+                                    'rgba(153, 102, 255, 1)',
+                                    'rgba(255, 159, 64, 1)'
+                                ],
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        }
+                    });
+                </script>        
+              </div>
+          </div>
       </div>
-    </section><!-- ======= End Tabel Data Scraping ======= -->
+    </section><!-- ======= End Grafik Visualisasi Data ======= -->
 
   </main><!-- End #main -->
 

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Babu Aja : Web Scraping</title>
+  <title>Babu Aja : Scraping 1</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -17,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -70,13 +70,13 @@
               </li>
               <li class="menu-has-children"><a href="web_scraping.html">Web Scraping</a>
                 <ul>
-                  <li><a href="scraping_1.html">Data Scraping 1</a></li>
+                  <li><a href="#">Data Scraping 1</a></li>
                   <li><a href="scraping_2.html">Data Scraping 2</a></li>
                 </ul>
               </li>
               <li class="menu-has-children"><a href="visualisasi_data.html">Visualisasi Data</a>
                 <ul>
-                  <li><a href="visualisasi_1.html">Visualisasi Data 1</a></li>
+                  <li><a href="#">Visualisasi Data 1</a></li>
                   <li><a href="visualisasi_2.html">Visualisasi Data 2</a></li>
                 </ul>
               </li>
@@ -91,47 +91,28 @@
 
   <main id="main">
 
-    <!-- ======= Breadcrumbs Section ======= -->
+    <!-- ======= Breadcrumps Section ======= -->
     <section class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Web Scraping</h2>
+          <h2>Data Scrapping : <a href="https://republika.co.id/">republika.co.id</a></h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Web Scraping</li>
+            <li><a href="visualisasi_data.html">Visualisasi Data</a></li>
+            <li>Visualisasi Data 1</li>
           </ol>
         </div>
 
       </div>
-    </section><!-- End Breadcrumbs Section -->
+    </section><!-- End Breadcrumps Section -->
 
-    <!-- Pilihan Data Hasil Scraping -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="assets/img/portfolio/portfolio_1.jpg" class="img-fluid" alt="republika"> 
-            <div class="portfolio-info">
-              <h4>Data Scraping 1</h4>
-              <p>Web Scraping</p>
-              <a href="scraping_1.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio_2.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Data Scraping 2</h4>
-              <p>Web Scraping</p>
-              <a href="scraping_2.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
+    <!-- ======= Tabel Data Scraping ======= -->
+    <section class="inner-page pt-4">
+      <div class="container">
+        <div id="data_scrapping"></div>
       </div>
-    </section><!-- End Pilihan Data Hasil Scraping -->
+    </section><!-- ======= End Tabel Data Scraping ======= -->
 
   </main><!-- End #main -->
 
@@ -177,6 +158,29 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Script Scraping Only -->
+  <script>
+    $(function () {
+          $.get('./assets/scrapping/dataBerita.json', function (obj) {
+               var str = '<div class ="table-responsive"><table class ="table table-bordered table-hover">';
+
+               str += '<thead class="thead-dark"><tr><th>No</th><th>Kategori</th><th>Judul</th><th>Waktu Publish</th><th>Waktu Scraping</th></tr></thead><tbody>';
+
+               $.each(obj, function (n, data) {
+                    str += '<tr><td style="text-align : center">' + (n + 1) + '</td>';
+                    str += '<td>' + data.Kategori + '</td>';
+                    str += '<td>' + data.Judul + '</td>';
+                    str += '<td>' + data.Waktu_Publish + '</td>';
+                    str += '<td>' + data.Waktu_Scraping + '</td></tr>'; 
+               });
+
+               str += '<tbody></table></div>';
+
+               $('#data_scrapping').html(str);
+          });
+     });
+</script>
 
 </body>
 
