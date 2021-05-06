@@ -99,6 +99,7 @@ var myChart = new Chart(ctx, {
             title: {
                 display: true,
                 text: '10 FILM Terlawas',
+                size: 20,
                 align: 'start'
             }
         },
@@ -107,7 +108,7 @@ var myChart = new Chart(ctx, {
                 display: true,
                 title: {
                     display: true,
-                    text: 'Judul',
+                    text: 'Judul Film',
                     color: '#191',
                     font: {
                         family: 'Times',

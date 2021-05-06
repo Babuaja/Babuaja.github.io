@@ -116,7 +116,7 @@ var myChart = new Chart(ctx_3, {
                 display: true,
                 title: {
                     display: true,
-                    text: 'Judul',
+                    text: 'Judul Film',
                     color: '#191',
                     font: {
                         family: 'Times',
