@@ -2,8 +2,8 @@
 //sort by year Ascending
 jsonfile.jsonarray.sort(function(a, b){return parseInt(a.tahun)-parseInt(b.tahun)})
 
-//Getter Property
- var judul = jsonfile.jsonarray.map(function(e) {
+//Getter
+var judul = jsonfile.jsonarray.map(function(e) {
     return e.judul;
  });
 
@@ -24,11 +24,11 @@ jsonfile.jsonarray.sort(function(a, b){return parseInt(a.tahun)-parseInt(b.tahun
  });;
 
  var votes = jsonfile.jsonarray.map(function(e) {
-    return e.votes;
+    return parseFloat(e.votes);
  });;
 
  var gross = jsonfile.jsonarray.map(function(e) {
-    return e.gross;
+    return parseFloat(e.gross);
  });;
  
  var gambar = jsonfile.jsonarray.map(function(e) {
@@ -46,27 +46,52 @@ var ndata = judul.length;
 
 for(var i=0; i<ndata; i++){
     if(i+1>10){
-        var j = judul.pop();
-        var t = tahun.pop();
+        judul.pop();
+        tahun.pop();
+        rating.pop();
+        durasi.pop();
+        votes.pop();
     }
 }
 
+const data = {
+    labels: judul,
+    datasets: [{
+        label: 'Rating ',
+        data: rating,
+        backgroundColor: "rgba(0, 252, 3, 0.6)",
+        borderColor: "rgba(0, 252, 3, 1)",
+        borderWidth: 1,
+        order : 0
+    }, {
+        label: 'Durasi (menit)',
+        data: durasi,
+        backgroundColor: "rgba(248, 252, 3, 0.6)",
+        borderColor: "rgba(248, 252, 3, 1)",
+        borderWidth: 1,
+        order: 0
+    }, {
+        label: "Votes ",
+        data: votes,
+        backgroundColor: "rgba(255, 0, 3, 0.6)",
+        borderColor: "rgba(255, 0, 3, 1)",
+        borderWidth: 1,
+        order: 0
+    }, {
+        type: "line",
+        label: 'Tahun ',
+        data: tahun,
+        backgroundColor: 'rgba(0, 0, 0, 0.7)',
+        borderColor: 'rgba(255, 99, 132, 1)',
+        borderWidth: 1,
+        order: 1
+    }
+    ]
+};
+
 var myChart = new Chart(ctx, {
-    type: 'line',
-    data: {
-        labels: judul,
-        datasets: [{
-            label: 'Tahun ',
-            data: tahun,
-            backgroundColor: [
-                'rgba(0, 0, 0, 0.7)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
+    type: "bar",
+    data: data,
     options: {
         responsive: true,
         maintainAspectRatio: false,
@@ -78,7 +103,36 @@ var myChart = new Chart(ctx, {
             }
         },
         scales: {
+            x: {
+                display: true,
+                title: {
+                    display: true,
+                    text: 'Judul',
+                    color: '#191',
+                    font: {
+                        family: 'Times',
+                        size: 20,
+                        style: 'normal',
+                        lineHeight: 1.2
+                    },
+                    padding: {top: 10, left: 0, right: 0, bottom: 0}
+                }
+                // suggestedMax : 500000
+            },
             y: {
+                display :true,
+                title : {
+                    display: true,
+                    text: 'Value',
+                    color: '#191',
+                    font: {
+                        family: 'Times',
+                        size: 20,
+                        style: 'normal',
+                        lineHeight: 1.2
+                    },
+                    padding: {top: 0, left: 0, right: 0, bottom: 0}
+                },
                 beginAtZero: false
             }
         }
