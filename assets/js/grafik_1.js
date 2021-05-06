@@ -62,6 +62,7 @@ const data = {
         backgroundColor: "rgba(0, 252, 3, 0.6)",
         borderColor: "rgba(0, 252, 3, 1)",
         borderWidth: 1,
+        hidden: true,
         order : 0
     }, {
         label: 'Durasi (menit)',
@@ -69,6 +70,7 @@ const data = {
         backgroundColor: "rgba(248, 252, 3, 0.6)",
         borderColor: "rgba(248, 252, 3, 1)",
         borderWidth: 1,
+        hidden: true,
         order: 0
     }, {
         label: "Votes ",
@@ -76,6 +78,7 @@ const data = {
         backgroundColor: "rgba(255, 0, 3, 0.6)",
         borderColor: "rgba(255, 0, 3, 1)",
         borderWidth: 1,
+        hidden: true,
         order: 0
     }, {
         type: "line",

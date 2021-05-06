@@ -95,12 +95,14 @@ var myChart = new Chart(ctx_5, {
             data: rating,
             backgroundColor: "rgba(248, 252, 3, 0.6)",
             borderColor: "rgba(248, 252, 3, 1)",
+            hidden: true,
             borderWidth: 1
         }, {
             label: "Votes ",
             data: votes,
             backgroundColor: "rgba(255, 0, 3, 0.6)",
             borderColor: "rgba(255, 0, 3, 1)",
+            hidden: true,
             borderWidth: 1
         }]
     },
