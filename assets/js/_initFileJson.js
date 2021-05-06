@@ -11004,42 +11004,42 @@ var jsonfile = {
     ]
 };
 
-//sort by year Descending
-jsonfile.jsonarray.sort(function(a, b){return parseInt(b.tahun)-parseInt(a.tahun)})
+// //sort by year Ascending
+// jsonfile.jsonarray.sort(function(a, b){return parseInt(a.tahun)-parseInt(b.tahun)})
 
-//init var
- var judul = jsonfile.jsonarray.map(function(e) {
-    return e.judul;
- });
+// //init var
+//  var judul = jsonfile.jsonarray.map(function(e) {
+//     return e.judul;
+//  });
 
- var tahun = jsonfile.jsonarray.map(function(e) {
-    return e.tahun;
- });;
+//  var tahun = jsonfile.jsonarray.map(function(e) {
+//     return e.tahun;
+//  });;
 
- var durasi = jsonfile.jsonarray.map(function(e) {
-    return e.durasi;
- });;
+//  var durasi = jsonfile.jsonarray.map(function(e) {
+//     return e.durasi;
+//  });;
  
- var genre = jsonfile.jsonarray.map(function(e) {
-    return e.genre;
- });;
+//  var genre = jsonfile.jsonarray.map(function(e) {
+//     return e.genre;
+//  });;
  
- var rating = jsonfile.jsonarray.map(function(e) {
-    return e.rating;
- });;
+//  var rating = jsonfile.jsonarray.map(function(e) {
+//     return e.rating;
+//  });;
 
- var votes = jsonfile.jsonarray.map(function(e) {
-    return e.votes;
- });;
+//  var votes = jsonfile.jsonarray.map(function(e) {
+//     return e.votes;
+//  });;
 
- var gross = jsonfile.jsonarray.map(function(e) {
-    return e.gross;
- });;
+//  var gross = jsonfile.jsonarray.map(function(e) {
+//     return e.gross;
+//  });;
  
- var gambar = jsonfile.jsonarray.map(function(e) {
-    return e.gambar;
- });;
+//  var gambar = jsonfile.jsonarray.map(function(e) {
+//     return e.gambar;
+//  });;
 
- var waktu_scrape = jsonfile.jsonarray.map(function(e) {
-    return e.waktu_scrape;
- });;
+//  var waktu_scrape = jsonfile.jsonarray.map(function(e) {
+//     return e.waktu_scrape;
+//  });;

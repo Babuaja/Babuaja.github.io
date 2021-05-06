@@ -1,3 +1,45 @@
+//insialisasi json sort category
+//sort by year Descending
+jsonfile.jsonarray.sort(function(a, b){return parseInt(b.tahun)-parseInt(a.tahun)})
+
+//Getter
+ var judul = jsonfile.jsonarray.map(function(e) {
+    return e.judul;
+ });
+
+ var tahun = jsonfile.jsonarray.map(function(e) {
+    return e.tahun;
+ });;
+
+ var durasi = jsonfile.jsonarray.map(function(e) {
+    return e.durasi;
+ });;
+ 
+ var genre = jsonfile.jsonarray.map(function(e) {
+    return e.genre;
+ });;
+ 
+ var rating = jsonfile.jsonarray.map(function(e) {
+    return e.rating;
+ });;
+
+ var votes = jsonfile.jsonarray.map(function(e) {
+    return e.votes;
+ });;
+
+ var gross = jsonfile.jsonarray.map(function(e) {
+    return e.gross;
+ });;
+ 
+ var gambar = jsonfile.jsonarray.map(function(e) {
+    return e.gambar;
+ });;
+
+ var waktu_scrape = jsonfile.jsonarray.map(function(e) {
+    return e.waktu_scrape;
+ });;
+
+//Create Grafik
 var ctx_2 = document.getElementById('g2');
 
 var ndata = judul.length;
@@ -10,52 +52,34 @@ for(var i=0; i<ndata; i++){
 }
 
 var myChart = new Chart(ctx_2, {
-    type: 'bar',
+    type: 'line',
     data: {
         labels: judul,
         datasets: [{
             label: 'Tahun ',
             data: tahun,
             backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(155, 150, 14, 0.2)',
-                'rgba(255, 198, 74, 0.2)',
-                'rgba(23, 109, 64, 0.2)',
-                'rgba(225, 109, 64, 0.2)',
-                'rgba(205, 10, 64, 0.2)'
+                'rgba(0, 0, 0, 0.7)'
             ],
             borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(155, 150, 14, 1)',
-                'rgba(255, 198, 74, 1)',
-                'rgba(23, 109, 64, 1)',
-                'rgba(225, 109, 64, 1)',
-                'rgba(205, 10, 64, 1)'
+                'rgba(255, 99, 132, 1)'
             ],
             borderWidth: 1
         }]
     },
     options: {
         responsive: true,
-        // indexAxis : 'y',
+        indexAxis : 'x',
         plugins: {
             title: {
                 display: true,
-                text: '10 FILM Terbaru Top 1000 IMDB',
+                text: '10 FILM Terbaru',
                 align: 'start'
             }
         },
         maintainAspectRatio: false,
         scales: {
-            y: {
+            x: {
                 beginAtZero: false
             }
         }
